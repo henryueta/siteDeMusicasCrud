@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'tomate';
+    src: url("../../../fonts/Poppins-Light.ttf");
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.15s ease-in-out;
+    --divBack:rgb(198, 197, 199);
+    --divSelect: rgb(166, 165, 167);
+    --divHover:rgb(150, 150, 151);
+    --scroll:rgb(15, 15, 15);
+    --fundo:rgb(40, 40, 41);
+    --nav: rgb(31, 30, 31);
+    --footer: rgb(19, 18, 18);
+    --fundoShadow: rgb(56, 56, 56);
+    --tamContainer:83%;
+    --marginContainer:17%;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: var(--divBack);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(157, 157, 165);
+    border-radius: 10px;
+}
+
+input[type=checkbox]:checked{
+    background-color: black;
+}
+
+
+input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: rgb(255, 255, 255);
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+
+abbr{
+    text-decoration: none;
+}
+
+h1{
+    font-family: tomate;
+}
+
+
+
+body{
+    background: linear-gradient(rgb(184, 175, 195) 50%,rgb(111, 104, 126));
+}
+
+
+
+.labelFoto{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 250px;
+    width: 250px;
+    box-shadow: 0px 10px 10px rgb(5, 5, 5);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.labelFoto input{
+    cursor: pointer;
+    display: none;
+}
+
+.labelFoto img{
+    height: 35%;
+    width: 35%;
+}
+
+.labelFoto:hover{
+    background-color: black;
+}
+
+.elementPage{
+    width: var(--tamContainer);
+    margin-left: var(--marginContainer);
+    /* background-color: rgb(204, 204, 204); */
+    /* padding: 60px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.elementPage>form{
+    display: flex;
+    flex-direction: column;
+}
+
+.elementPage>form *{
+    margin: 10px;
+}
+
+.elementPage>*{
+    margin: 10px;
+}

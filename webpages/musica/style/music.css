@@ -1,0 +1,221 @@
+.musicPage{
+    width: 83%;
+    margin-left: 17%;
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px;
+}
+
+.musicPage>*{
+    margin: 10px;
+}
+
+.album-info{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    backdrop-filter: blur(7px);
+    background-color: rgba(134, 133, 133, 0.5);
+    border-radius: 5px;
+}
+
+.album-cape{
+    height: 100%;
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#labelForEditAlbum{
+    display: none;
+}
+
+#albumImage{
+    height: 260px;
+    width: 260px;
+    border-radius:15px ;
+    background-color:rgb(25, 25, 26);
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px black;
+}
+
+#playlistImage{
+    height: 260px;
+    width: 260px;
+    padding: 40px;
+    border-radius:15px ;
+    background-color:rgb(25, 25, 26);
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px black;
+}
+
+
+.element-name{
+    height: 100%;
+    width: 740px;
+    color: rgb(2, 2, 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 30px;
+    font-family: tomate;
+}
+
+
+.element-name>h1{
+    width: 600px;
+    font-weight: lighter;
+    font-size: 75px;
+    text-align: start;
+}
+
+.element-name>h1>input{
+    font-family: tomate;
+    width: auto;
+    font-weight: lighter;
+    font-size: 45px;
+    text-align: start;
+    background: none;
+    border: none;
+    outline: none;
+    font-weight: normal;
+    border: 2px solid rgb(255, 255, 255);
+    background-color:rgb(25, 25, 26),0.2;
+    color: white;
+}
+
+
+.element-name p:nth-child(3){
+    text-align: start;
+    font-size: 20px;
+    width: 200px;
+}
+
+.album-singer,.album-category{
+    display: flex;
+    align-items:center;
+}
+
+.element-name>div{
+    flex-direction: row;
+    display: flex;
+}
+
+.element-name>div>*{
+    margin: 5px;
+}
+
+.element-name button{
+    height: 45px;
+    width: 145px;
+    color: rgb(7, 7, 7);
+    letter-spacing: 2px;
+    background-color: rgb(204, 204, 204);
+    border: none;
+    font-family: tomate;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.element-name button>img{
+    padding: 12px;
+    width: 40px;
+height: 40px;
+}
+
+.album-singer>button,.album-category>button{
+    border:2px solid red;
+    height: 35px;
+    width:35px;
+}
+
+
+.singerAlbum{
+    width: 1050px;
+    border: 2px solid red;
+}
+
+.singerAlbum>article{
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.singerAlbum>article>h1{
+    font-size: 22px;
+}
+
+.album-num{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    place-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+
+.album-num>div{
+    display: flex;
+    flex-direction: column;
+    border:2px solid red;
+    height: 320px;
+    width: 230px;
+    text-align: start;
+    padding: 10px;
+}
+
+.album-num>div>img{
+    border: 2px solid red;
+    height: 190px;
+    width: 190px;
+    align-self: center;
+}
+
+.album-num>div>*{
+    margin: 10px;
+}
+.singer-num{
+    border-radius: 10px;
+    width: 1060px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap:10px ; 
+    padding: 10px;
+    background-color:rgb(160, 160, 160);
+}
+
+
+.singer-num>div{
+    width: 1040px;
+    height: 80px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+    color: rgb(14, 13, 13);
+    border:2px solid black;
+}
+
+.singer-num>div>*{
+    margin: 10px;
+}
+
+.singer-num>div>img{
+    width: 70px;
+    height: 70px;
+}

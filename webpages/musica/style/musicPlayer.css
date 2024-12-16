@@ -1,0 +1,223 @@
+.volume{
+    appearance: none;
+     width: 90px;
+     height: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+ }
+ 
+ .musicVolumeIcon{
+     width: 18px;
+     height: 18px;
+ }
+ 
+ 
+ .playlistChoiceScreen.up{
+     transform: translateY(0%); 
+ }
+ 
+ .playlistChoiceScreen{
+     transform: translateY(200%);
+     z-index: 1000;
+     display: flex;
+     flex-direction: column;
+     justify-content: start;
+     position: fixed;
+     height: 400px;
+     width: 300px;
+     background-color:rgb(19, 19, 19);
+     border: 1px solid rgb(36, 36, 36);
+     border-radius: 10px;
+     bottom:90px;
+     left: 230px;
+     padding: 10px;
+ }
+ 
+ .playlistChoiceScreen>form{
+     font-family: tomate;
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+     height: 275px;
+     overflow-y: auto;
+     color: white;
+ }
+ 
+ .playlistChoiceScreen>section{
+     display: flex;
+     flex-direction: row;
+     width: auto;
+     height: 30px;
+     justify-content: center;
+     align-items: center;    
+ }
+ 
+ .playlistChoiceScreen>section>button{
+     width: 30px;
+     height: 30px;
+ }
+ 
+ .playlistChoiceScreen>section>input[type=search]{
+     padding: 5px;
+     outline: none;
+     width: 230px;
+     height: 30px;
+ }
+ 
+ .playlistChoiceScreen>button{
+     height: 40px;
+ }
+ 
+ 
+ 
+ .playlistChoiceScreen>form>div{
+     height: 50px;
+     width: auto;
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     padding: 10px;
+     border: 2px solid rgb(55, 55, 55);
+ }
+ 
+ .playlistChoiceScreen div>*{
+     margin: 5px;
+ }
+ 
+ .musicAddIcon.add{
+     transform:rotateZ(45deg); 
+ }
+ 
+ .musicAddIcon{
+     padding: 12px;
+     border-radius: 100%;
+     width: 35px;
+     height: 35px;
+     border: none;
+    background-color: rgb(36, 36, 36);
+ }
+ 
+ .bar{
+     width: 480px;
+     height: 8px;
+    background-color: rgb(36, 36, 36);
+    appearance: none;
+     border-radius: 15px;
+     cursor: pointer;
+ }
+ 
+ 
+ 
+ 
+ .musicBar{
+     position: fixed;
+     z-index: 1000;
+     bottom: 0px;
+     width: 83%;
+     background-color:rgb(20, 20, 20);
+     border-top-right-radius: 20px;
+     border-top-left-radius: 20px;
+     border: 1px solid rgb(44, 44, 44);
+     height: 120px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     justify-content: space-around;
+     margin-left: var(--marginContainer);
+ }
+ 
+ .musicBarInfo{
+     width: 400px;
+     height: 100%;
+     flex-direction: row;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     padding: 15px;
+ }
+ 
+ .musicBarInfo>div{
+     display: flex;
+     flex-direction: column;
+     align-items: start;
+     justify-content:center;
+     color: white;
+     font-family: tomate;
+ }
+ 
+ .musicBarInfo>button{
+     background: none;
+     border: none;
+     border-radius: 100%;
+ }
+ 
+ .musicBar>section:first-child>div{
+     width: 100%;
+ }
+ 
+ .musicBarInfo>div>*{
+     margin: 5px;
+ }
+ 
+ .musicBarInfo>*{
+     margin: 5px;
+ }
+ 
+ .musicCapeIcon{
+     height: 65px;
+     width: 65px;
+     border-radius: 10px;
+     object-fit: cover;
+     background-color: black;
+ }
+ 
+ 
+ .musicBarInfo>div>h1{
+     font-size: 14px;
+ }
+ 
+ .musicBarInfo>div>p{
+     font-size: 12px;
+ }
+ 
+ .musicBarActions{
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     justify-content: center;
+ }
+ 
+ .musicBarActions>div{
+     height: 35px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ 
+ .musicBarActions>div:last-child{
+     width: 600px;
+     height: 70px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .musicBarActions button{
+     margin: 8px;
+     border-radius: 100%;
+     width: 45px;
+     height: 45px;
+     border: none;
+    background-color: rgb(36, 36, 36);
+     display: flex;
+     justify-content:center ;
+     align-items: center;
+ }
+ 
+ .musicBarActions button img{
+     height: 35%;
+     width: 35%;
+     background-color: none;
+ }

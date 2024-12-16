@@ -1,0 +1,168 @@
+/* --------------------- */
+#setDataPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.atration{
+    /* width: 400px;
+    height: 500px;  */
+}
+
+
+
+#setDataScreen{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border-top-right-radius: 30px ;
+    border-bottom-right-radius: 30px;
+}
+
+.loginScreen{
+    height: 550px;
+    width: 500px;
+}
+
+.registerScreen{
+    height: 600px;
+    width: 700px;
+}
+
+.registerScreen>form{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.loginScreen>form{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+#setDataScreen h1{
+    font-family: tomate;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+#setDataScreen h1>span{
+    color: rgb(255, 0, 221);
+}
+
+#setDataScreen label{
+    margin-bottom: 25px;
+}
+
+.loginScreen input:not(#enviar){
+    width: 300px;
+    height: 25px;
+    outline: 1px solid rgb(144, 47, 255);
+    font-size: 14px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginScreen>form>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    justify-content: space-between;
+    font-family: tomate;
+}
+
+.registerScreen input:not(#enviar){
+    width: 300px;
+    height: 25px;
+    outline: 1px solid rgb(144, 47, 255);
+    font-size: 14px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registerScreen>form>div{
+    width: 50%;
+    height: 400px;
+    padding: 10px;
+    justify-content: space-between;
+    font-family: tomate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+#setDataScreen>form>p {
+    font-family: tomate;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+#setDataScreen>form>label>p{
+    font-family: tomate;
+    margin-bottom: 5px;
+}
+
+#setDataScreen a{
+    text-decoration: none;
+    color: rgb(183, 0, 255);
+}
+
+#setDataScreen a:hover{
+    color: rgb(255, 0, 234);
+    text-shadow: 0px 0px 10px rgb(255, 0, 255);
+}
+
+#voltar{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(99, 87, 124);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#enviar{
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    background-color: rgb(99, 87, 124);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#enviar:hover{
+    background-color: rgb(48, 42, 60);    
+}
+
+#enviar:active{
+    background-color: rgb(62, 53, 80);    
+    text-shadow: 0px 0px 50px white;
+}
+
+.usersPage{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+/* ------------------ */
